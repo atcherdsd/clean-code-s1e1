@@ -16,8 +16,11 @@
   width: 100%;
 }
 
-.header__link {
+.link {
   font-family: fantasy, cursive;
+}
+
+.header__link {
   display: block;
   margin-bottom: 1em;
 }
@@ -36,7 +39,7 @@
   margin: 0 auto 0;
 }
 
-.article__input,
+.input__text,
 .list__input,
 .list__label {
   width: 56%;
@@ -44,7 +47,7 @@
   flex-grow: 1;
 }
 
-.article__input-wrapper {
+.article__input {
   display: flex;
   margin-bottom: 1em;
 }
@@ -60,16 +63,16 @@
   list-style: none;
 }
 
-.article__input,
+.input__text,
 .list__input,
 .list__checkbox,
-.article__add-btn,
+.input__add-btn,
 .list__btn-edit,
 .list__btn-delete {
   outline: none;
 }
 
-.article__add-btn,
+.input__add-btn,
 .list__btn-edit,
 .list__btn-delete {
   background: none;
@@ -81,7 +84,7 @@
   cursor: pointer;
 }
 
-.article__add-btn:hover,
+.input__add-btn:hover,
 .list__btn-edit:hover,
 .list__btn-delete:hover {
   color: #3a3a3a;
@@ -104,7 +107,7 @@
   text-transform: uppercase;
 }
 
-.article__input,
+.input__text,
 .list__input {
   margin: 0;
   font-size: 18px;
@@ -118,7 +121,7 @@
   color: #888;
 }
 
-.article__input:focus,
+.input__text:focus,
 .list__input:focus {
   color: #333;
 }
@@ -129,7 +132,7 @@
   margin: 0 0 20px;
 }
 
-.article__input {
+.input__text {
   width: 318px;
 }
 
